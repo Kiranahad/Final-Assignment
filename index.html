@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hebal Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      
+  <header>
+       <nav>
+           <h1>Herbal World</h1>
+           <ul>
+             <li><a href="index.html ">Home</a></li>
+             <li><a href=" products.html">Products</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="contact">Contact</a></li>
+           </ul>
+       </nav>
+       <div class="cart">
+        Cart: <span id="cart-count">0</span>
+    </div>
+    </header>
+             <div class="hero">
+          <img src="flat-lay-natural-medicinal-herbs.jpg" alt="background image">
+           <h2>Welcome To Herbal World</h2>
+           <p>Discover the power of nature through our organic herbal products.</p>
+           <button onclick="scrolToProducts()">Shop Now
+           </button>  
+          </div>
+         <div class="add">
+          <h2>Our Product</h2>
+      </div>
+         <div class="good1">
+          <div class="product">
+              <img src="herbal hair oil.jpeg"alt="Herbal oil">
+            <h3>Herbal Oil</h3>
+               <p>Pure herbal oil for rejuvenation and relexation.</p>
+               
+               <button onclick="addToCart('Herbal Oil')">Add to Cart</button>
+          </div> 
+          <div class="product">
+              <img src="herbal tea.jpeg"alt="Herbal Tea">
+            <h3>Herbal Tea</h3>
+            <p>A refreshingblend of natural herbs relexation</p>
+            <button onclick="addToCart('Herbal Tea')">Add to Cart</button> 
+          </div>
+          <div class="product">
+              <img src="Herbal supplement.jpeg"alt="Herbal Supplements">
+            <h3>Herbal Supplements</h3> 
+               <p>Boost your health with 100% organic herbal supplements.</p>
+               <button
+               onclick="addToCart('Herbal Supplements')">Add to Cart</button>    
+            </div> 
+      </div>
+      <div class="good1">
+        <div class="product">
+          <img src="herbal serum.jpeg"alt="Herbal serum">
+        <h3>Herbal Serum</h3>
+           <p>It reduces hyperpigmentation and black spots on your skin.</p>
+           
+           <button onclick="addToCart('Herbal Serum')">Add to Cart</button>
+      </div> 
+      <div class="product">
+          <img src="Herbal shampoo.jpeg"alt="Herbal Shampoo">
+        <h3>Herbal Shampoo</h3>
+        <p>Regular usage of herbal shampoos can do wonders for your hair.</p>
+        <button onclick="addToCart('Herbal Shampoo')">Add to Cart</button> 
+      </div>
+      <div class="product">
+          <img src="Herbal Facial.jpeg"alt="Herbal Facial">
+        <h3>Herbal Facial</h3> 
+      <p> It is a very healthy and natural way to clear all dirt and toxins from your face to promote glowing, refreshed skin.</p>
+           <button onclick="addToCart('Herbal Facial')">Add to Cart</button>    
+        </div> 
+
+      </div>
+  
+      <!-- About Section -->
+     <div class="about">>
+         <h2>About Us</h2>
+         <p>We provide the best organic and natural herbal products that promote health and wellness.Our products are sourced from natural ingredients and are free from harmful chemicals.Herbal products are medicines derived from plants. They are used as supplements to improve health and well being, and may be used for other therapeutic purposes. Herbal products are available as tablets, capsules, powders, extracts.
+          Many people believe that products labeled "natural" are always safe and good for them. This is not necessarily true. Herbal medicines do not have to go through the testing that drugs do. Some herbs, such as Ephedra, Aconite can cause serious harm</p>
+
+     </div>
+      <!-- Contact section -->
+     <div class="contact">
+     
+       <h2>Contact Us</h2>
+       <from>
+        <input type="text"placeholder="Your Name"required>
+            <input type="email" placeholder="Your Email"required></textarea>
+            
+            <button type="submit">Submit</button>
+       </from>
+      </div>
+       
+      <!-- Footer Section -->
+
+      <footer>
+        <p>&copy; 2024 Herbal World.All Right Reserved.</p>
+      </footer>  
+
+     <!-- JavaScript File -->
+      <script src="script.js"></script>
+</body>
+</html>

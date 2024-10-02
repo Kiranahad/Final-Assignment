@@ -1,0 +1,132 @@
+*{
+ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+
+  }
+  header{
+    background-color: #135b2c;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    }
+ nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none; 
+ }
+ nav ul li{
+    margin: 0 20px;
+ }
+ nav ul li a{
+     color:white;
+     text-decoration: none; 
+ }
+ .cart {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 18px;
+}
+ .hero{
+  /* background-image: url('flat-lay-natural-medicinal-herbs.jpg'); */
+  /* width: 100%;
+  height: 100%; */
+  /* background-size: cover; */
+
+  text-align: center;
+  color: rgb(149, 28, 28);
+  padding: 10px 20px;
+ }
+ .hero img{
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+
+ }
+ .hero h2{
+  font-size: 48px;
+ }
+ .hero p{
+  font-size: 20px;
+  margin: 20px 0;
+ }
+ .hero button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+ }
+ 
+ 
+ 
+ .add h2{
+  border: 20px;
+  border-color: black;
+  text-align: center;
+}
+.add {
+background-color: rgb(102, 102, 187);
+margin-bottom: 20px;
+
+
+}
+.good{
+  /* background-color: rgb(78, 131, 113); */
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding: 30px 30px 30px 30px;
+  /* margin-top: 80px; */
+}
+.product img{
+  height: 300px;
+  width: 270px;
+  margin:30px 20px 30px 20px;
+  /* padding: 20px 20px 20px 20px; */
+}
+.good1{
+  /* background-color: rgb(105, 221, 230); */
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding: 30px 30px 30px 30px;
+}
+ .product h3{
+  margin: 20px 0;
+ }
+ .product p{
+  color:#666;
+ }
+ .product button{
+  background-color: #d4598e;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ }
+ .product button hover{
+   background-color: #225d63;
+ }
+ .about,contact{
+   text-align: center;
+   padding: 50px 20px;
+   background-color: #ede892;
+ }
+ .contact{
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #dfb490;
+ }
+ footer{
+  background-color: #135b2c;
+   color: white;
+   text-align: center;
+   padding: 70px;
+ }   
